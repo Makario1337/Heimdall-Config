@@ -1,0 +1,27 @@
+.item{
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 60px 40px -7px !important;
+}
+
+#config-buttons {
+  bottom: 50%;
+  transform: translateY(50%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) -1px 1px 1px 0, rgba(255, 255, 255, 0.03) 0 -1px 1px 0,
+    rgba(0, 0, 0, 0.1) -1px 0 20px 5px;
+  background-color: rgba(40, 40, 40, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+#config-buttons a {
+  background: none;
+}
+#config-buttons a svg {
+  transition: all 0.1s ease-in-out;
+  color: rgba(255, 255, 255, 0.95);
+}
+#config-buttons a:hover svg {
+  transform: scale(1.1);
+  color: rgba(255, 255, 255, 0.95);
+}
